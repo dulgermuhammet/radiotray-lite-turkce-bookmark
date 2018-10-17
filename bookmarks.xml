@@ -1,0 +1,78 @@
+<!--
+     Radiotray Lite Linux Türkçe Radio Listesi
+  
+     xml dosyasının kopyalanacağı dosya yolu ="/home/<username>/.config/radiotray-lite/"
+    
+    Debian tabanlı dağıtımlar için aşığadıki komutlarla Radio Tray Lite programını yükleyebilirsiniz.
+
+    sudo add-apt-repository ppa:nilarimogard/webupd8
+    sudo apt update
+    sudo apt install radiotray-lite
+
+-->
+
+
+
+<bookmarks>
+
+  <group name="root">
+
+    <group name="Türkçe">
+
+      <group name="Türkü">
+        <bookmark name="Trt Nağme" url="https://trtcanlifm-lh.akamaihd.net/i/TRTNAGME_1@182046/master.m3u8"/>
+        <bookmark name="Trt Türkü" url="https://trtcanlifm-lh.akamaihd.net/i/TRTTURKU_1@182246/master.m3u8"/>
+        <bookmark name="Pal Alaturka" url="http://shoutcast.radyogrup.com:3050/;stream.mp3"/>   
+      </group>
+
+      <group name="Haber&Spor">
+        <bookmark name="Cnn Türk Radyo" url="http://radyo.dogannet.tv/cnnturk"/>
+        <bookmark name="Ntv Radyo" url="http://ntvrdsc.radyotvonline.com/;stream.mp3/;stream.mp3"/>
+        <bookmark name="Trt 1" url="https://trtcanlifm-lh.akamaihd.net/i/RADYO1_1@182345/master.m3u8"/>
+        <bookmark name="Trt Radyo Haber" url="https://trtcanlifm-lh.akamaihd.net/i/TRTRADYOHABER_1@182147/master.m3u8"/>
+        <bookmark name="RadyoSpor" url="http://live4.radyotvonline.com:8160/;stream.mp3"/> 
+      </group>
+
+      <group name="Dini">
+        <bookmark name="Dost Fm" url="http://yayin.dostfm.com:8920/;stream.mp3"/>
+        <bookmark name="Radyo 7" url="http://37.247.98.8/stream/33/?/;stream.mp3"/>
+      </group>
+
+      <group name="Pop">
+        <bookmark name="Power Türk" url="http://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio?/;"/>
+        <bookmark name="Süper Fm" url="http://provisioning.streamtheworld.com/pls/SUPER_FMAAC.pls"/>
+        <bookmark name="Joy Türk" url="https://18463.live.streamtheworld.com/JOY_TURK_ITUNES.mp3?/;stream.mp3"/>
+        <bookmark name="Best Fm" url="http://46.20.7.126:80/;stream.mp3"/>
+        <bookmark name="Number One Türk" url="http://46.20.4.61/listen.pls"/>
+      </group>
+      
+
+      <group name="Slow">
+        <bookmark name="Slow Türk" url="https://slowturk.turkhosted.com/slowturk?/;stream.mp3"/>
+        <bookmark name="Pal Slow" url="http://shoutcast.radyogrup.com:2020/;stream.mp3"/>
+        <bookmark name="Power Türk Akustik" url="https://listen.powerapp.com.tr/powerturkakustik/mpeg/icecast.audio?/;stream.mp3"/>
+        
+      </group>
+
+      <group name="Klasik">
+        <bookmark name="Trt Radyo 3" url="https://trtcanlifm-lh.akamaihd.net/i/RADYO3_1@181946/master.m3u8"/>
+      </group>
+  
+    </group>
+
+    <group name="İngilizce">
+        <bookmark name="Power Fm" url="https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio?/;stream.mp3"/>
+        <bookmark name="Metro Fm" url="http://provisioning.streamtheworld.com/pls/METRO_FMAAC.pls"/>
+        <bookmark name="Joy Fm" url="http://provisioning.streamtheworld.com/pls/JOY_FMAAC.pls"/>
+        <bookmark name="Mydonose" url="http://provisioning.streamtheworld.com/pls/RADIO_MYDONOSEAAC.pls"/>
+        <bookmark name="Number One" url="http://46.20.4.60/listen.pls"/> 
+    </group>
+
+    <group name="Yabancı">  
+      <bookmark name="Power Greece" url="https://listen.powerapp.com.tr/powergreece/mpeg/icecast.audio?/;stream.mp3"/>
+      <bookmark name="Derti Fm" url="http://derti.live24.gr/derty1000"/>
+    </group>
+
+  </group>
+
+</bookmarks>
