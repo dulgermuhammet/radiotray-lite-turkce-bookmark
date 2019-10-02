@@ -6,11 +6,9 @@
      xml dosyasının kopyalanacağı dosya yolu ="/home/<username>/.config/radiotray-lite/"
     
     Debian tabanlı dağıtımlar için aşığadıki komutlarla Radio Tray Lite programını yükleyebilirsiniz.
-
     sudo add-apt-repository ppa:nilarimogard/webupd8
     sudo apt update
     sudo apt install radiotray-lite
-
 -->
 
 
@@ -73,6 +71,10 @@
     <group name="Yabancı">  
       <bookmark name="Power Greece" url="https://listen.powerapp.com.tr/powergreece/mpeg/icecast.audio?/;stream.mp3"/>
       <bookmark name="Derti Fm" url="http://derti.live24.gr/derty1000"/>
+    </group>
+
+    <group name="Code Radio">  
+      <bookmark name="Freecodecamp Radio" url="https://coderadio-relay.freecodecamp.org/radio/8010/radio.mp3"/>    
     </group>
 
   </group>
